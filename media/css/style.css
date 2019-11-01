@@ -1,0 +1,49 @@
+
+.container{
+    width: 980px;
+    margin: 0 auto;
+    background-color: aqua;
+ }
+ div{
+     height: 200px;
+     width: 200px;
+     display: inline-block;
+     }
+ 
+ .red{
+     background-color: red;
+ }
+ .brown{
+     background-color: brown;
+ }
+ .violet{
+     background-color: violet;
+ }
+ .green{
+     background-color: green;
+ }
+ @media only screen and (max-width: 860px){
+     .container{
+         width: 450px;
+         height: 450px;
+         display: inline-table;
+                  
+      }
+     .div{
+         width: 200px;
+         height: 200px;
+              
+     }  
+ }
+ @media only screen and (max-width: 500px){
+     .container{
+         width: 220px;
+         height: 900px;
+      }
+     div{
+         width: 200px;
+         height: 200px;
+         float: left;
+               
+     }  
+ }
